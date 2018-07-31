@@ -1,0 +1,12 @@
+class_name: UnitTester
+modules:
+    enabled:
+        - Yii2:
+            cleanup: false
+            part: [email]
+        - Asserts
+        - \api\tests\Helper\UnitHelper
+        #- \frontend\tests\Helper\FixtureHelper
+        #- DataFactory:
+        #    factories: tests/_support/factories
+        #    depends: Yii2
